@@ -16,3 +16,11 @@
   width: 80px;
   height: 80px;
 }
+
+.header {
+  display: flex;
+}
+
+.left-links {
+  display: flex;
+}
