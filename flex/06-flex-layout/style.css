@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 20px;
 }
 
 input {
@@ -24,4 +25,66 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 50px;
+}
+
+.header .left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #4c4c4c;
+}
+
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 0 20px;
+}
+
+.footer .left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
 }
